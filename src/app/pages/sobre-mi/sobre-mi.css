@@ -1,0 +1,44 @@
+.about-container {
+    --bg-dark: #707070;
+    --clr: #58bc82;
+    --clr-alpha: #9c9c9c60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 2rem 1rem;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.about-container h2 {
+    font-size: 3rem;
+    color: var(--clr);
+    margin: 0;
+}
+
+.about-container p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    line-height: 1.6;
+    color: var(--bg-dark);
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    transition: all 300ms;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: var(--clr);
+    color: var(--bg-dark);
+}

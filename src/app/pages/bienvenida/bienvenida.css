@@ -1,0 +1,47 @@
+.welcome-container {
+    --bg-dark: #707070;
+    --clr: #58bc82;
+    --clr-alpha: #9c9c9c60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+.welcome-container h1 {
+    font-size: 2.5rem;
+    color: var(--clr);
+    margin: 0;
+}
+
+.welcome-container p {
+    font-size: 1.2rem;
+    color: var(--bg-dark);
+    max-width: 500px;
+}
+
+.welcome-container a {
+  padding: 1rem 0.75rem;
+  width: 100%;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 3rem;
+  background-color: var(--bg-dark);
+  color: var(--bg-light);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms;
+  font-weight: 600;
+  font-size: 0.9rem;
+  max-width: 20%;
+  text-decoration: none;
+}
+
+.welcome-container a:hover {
+  background-color: var(--clr);
+  color: var(--bg-dark);
+}
