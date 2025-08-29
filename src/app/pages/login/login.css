@@ -79,19 +79,3 @@
 .span a {
   color: var(--clr);
 }
-
-.btn-home {
-  text-decoration: none;
-  background: var(--bg-dark);
-  color: #fff;
-  padding: 12px 24px;
-  border-radius: 25px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  margin-top: 20px;
-}
-
-.btn-home:hover {
-  background: var(--clr);
-  color: var(--bg-dark);
-}
